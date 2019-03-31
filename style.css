@@ -1,5 +1,23 @@
 @import url(http://fonts.googleapis.com/earlyaccess/hanna.css);
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR');
+
 
 h1 {
-    font-family: 'Hanna';
+    font-family: 'Noto Sans KR', sans-serif; 
+}
+
+h2{
+    font-family: 'Noto Sans KR', sans-serif;   
+}
+
+h3{
+    font-family: 'Noto Sans KR', sans-serif;   
+}
+
+h5{
+    font-family: 'Noto Sans KR', sans-serif;   
+}
+
+h2::after{
+    background-color: black;   
 }
