@@ -18,6 +18,10 @@ h5{
     font-family: 'Noto Sans KR', sans-serif;   
 }
 
+p{
+    font-family: 'Noto Sans KR', sans-serif;   
+}
+
 h2::after{
     background-color: black;   
 }
@@ -34,10 +38,16 @@ h2::after{
 }
 
 .btn-default{
-    border: 1px solid #1C1C1C;;
+    border: 1px solid #1C1C1C;
 }
 
 .btn-default:hover{
     border: 1px solid #1C1C1C;
     background-color: #1C1C1C;
 }
+
+.btn.btn-primary.btn-lg.anchor-link:hover{
+    border: 1px solid #ffffff;
+    background-color: #2E2E2E;
+}
+
